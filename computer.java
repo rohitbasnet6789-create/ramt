@@ -1,4 +1,5 @@
-import java.until.Scanner;
+
+import java.util.Scanner;
 
 public class computer{
     public static void main(String[] args){
@@ -6,7 +7,7 @@ public class computer{
         System.out.println("Enter your grade :");
         int grade=input.nextInt();
         String result=(grade>=40)?"pass":"fail";
-        System.out.
+        System.out.println(result);
         
     }
 }
